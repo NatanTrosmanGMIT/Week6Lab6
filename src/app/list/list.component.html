@@ -1,0 +1,17 @@
+<p>list works!</p>
+
+<ul>
+    <li>{{presidents[0]}}</li>
+    <li>{{presidents[1]}}</li>
+    <li>{{presidents[2]}}</li>
+    <li>{{presidents[3]}}</li>
+</ul>
+<hr>
+<ul>
+    <li *ngFor= "let president of presidents">{{presidents}}</li>
+</ul>
+
+<h3>Presidents name & term</h3>
+<ul>
+    <li *ngFor= "let x of mypresidents">Name: {{x.name}},Term: {{x.term}}</li>
+</ul>
